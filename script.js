@@ -254,7 +254,7 @@ function renderDaily() {
                 <span>📋 今日任务</span>
                 <div style="display:flex;align-items:center;gap:8px">
                     <span style="font-size:0.8rem;color:var(--text-muted)">${totalCount}项</span>
-                    <button class="browse-btn-sm" onclick="goToPoolBrowse()">🃏 挑选</button>
+                    <button class="browse-btn-sm" onclick="goToPoolBrowse()">挑选</button>
                 </div>
             </div>
             <div class="card-body">
@@ -626,7 +626,7 @@ function renderPool() {
     content.innerHTML = `
         <div class="pool-header">
             <span>共 ${totalPoolTasks} 项任务</span>
-            ${totalPoolTasks > 0 ? `<button class="browse-btn" onclick="startPoolBrowse()">🃏 卡片浏览</button>` : ''}
+            ${totalPoolTasks > 0 ? `<button class="browse-btn" onclick="startPoolBrowse()">卡片浏览</button>` : ''}
         </div>
         
         ${fromTickler.length > 0 ? `
