@@ -1,0 +1,25 @@
+{
+    "name": "流与锚 Flow & Anchor",
+    "short_name": "流与锚",
+    "description": "轻量级个人任务管理工具，反焦虑设计",
+    "start_url": ".",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#FAF9F6",
+    "theme_color": "#8B9A8E",
+    "icons": [
+        {
+            "src": "icon-192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "icon-512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}
