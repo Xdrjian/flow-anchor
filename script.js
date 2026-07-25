@@ -221,7 +221,7 @@ function renderDaily() {
             </div>
             <div class="card-body">
                 ${appData.todayNorthStar 
-                    ? `<p style="text-align:center;font-style:italic;color:var(--text-light);line-height:1.6;font-size:0.9rem">${typeof appData.todayNorthStar === 'string' ? appData.todayNorthStar : appData.todayNorthStar.content}</p>`
+                    ? `<p style="text-align:left;font-style:italic;color:var(--text-light);line-height:1.6;font-size:0.9rem">${typeof appData.todayNorthStar === 'string' ? appData.todayNorthStar : appData.todayNorthStar.content}</p>`
                     : `<p class="empty-text">暂无灯塔语录，去添加一些吧！</p>`
                 }
             </div>
